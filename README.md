@@ -6,8 +6,7 @@ A smart, interactive AI-powered chatbot built using **HTML**, **CSS**, **JavaScr
 
 ## 📸 Preview
 
-![Chatbot Screenshot](![image](https://github.com/user-attachments/assets/e28b084a-3465-4f45-aec1-0cfb273a72d6)
-) <!-- You can replace this with your own screenshot -->
+![Chatbot Screenshot](![image](https://github.com/user-attachments/assets/e28b084a-3465-4f45-aec1-0cfb273a72d6)) <!-- You can replace this with your own screenshot -->
 
 ---
 
