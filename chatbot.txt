@@ -1,81 +1,121 @@
-Artificial Intelligence (AI) is the simulation of human intelligence in machines that are programmed to think and learn. These machines are capable of performing tasks that typically require human intelligence.
+Artificial Intelligence (AI) is the branch of computer science that aims to create machines that can perform tasks that typically require human intelligence, such as reasoning, learning, problem-solving, perception, and language understanding.
 
-Machine Learning (ML) is a subset of AI that focuses on enabling machines to learn from data and improve their performance over time without being explicitly programmed.
+Machine Learning (ML) is a subset of AI that enables machines to learn from data and improve their performance over time without being explicitly programmed.
 
-Deep Learning is a subfield of machine learning that uses neural networks with many layers (deep neural networks) to analyze various factors of data.
+Deep Learning is a subset of machine learning that uses artificial neural networks with many layers to model complex patterns in data.
 
-Natural Language Processing (NLP) allows machines to understand, interpret, and generate human language, enabling applications like chatbots, translation, and voice assistants.
+Neural Network is a series of algorithms that attempts to recognize relationships in data through a process that mimics the way the human brain operates.
 
-Computer Vision enables machines to interpret and make decisions based on visual data from the world, such as images and videos.
+Natural Language Processing (NLP) is a field of AI that focuses on the interaction between computers and humans through natural language.
 
-Reinforcement Learning is an area of machine learning where agents learn optimal behaviors by interacting with an environment and receiving rewards or penalties.
+Computer Vision is an AI field that trains machines to interpret and understand the visual world using images and videos.
 
-Supervised Learning is a machine learning task where the model is trained on labeled data, meaning the input comes with the correct output.
+Supervised Learning is a machine learning technique where the model is trained on a labeled dataset, meaning each input is paired with the correct output.
 
-Unsupervised Learning is a type of machine learning where the model tries to learn patterns from data without labeled responses.
+Unsupervised Learning is a technique where the model is given data without explicit instructions on what to do with it and must find patterns and relationships.
 
-Semi-Supervised Learning combines a small amount of labeled data with a large amount of unlabeled data during training.
+Semi-Supervised Learning is a middle ground between supervised and unsupervised learning where a small amount of labeled data is used with a large amount of unlabeled data.
 
-Neural Networks are computational models inspired by the human brain, used in deep learning to recognize patterns and solve complex problems.
+Reinforcement Learning is a type of machine learning where an agent learns to behave in an environment by performing actions and receiving rewards or penalties.
 
-AI Ethics deals with the moral implications of artificial intelligence, including fairness, transparency, accountability, and privacy concerns.
+Artificial Neural Networks are computing systems inspired by the biological neural networks of animal brains, used in deep learning.
 
-Bias in AI refers to systematic errors in AI systems due to biased data, which can lead to unfair or discriminatory outcomes.
+Convolutional Neural Networks (CNNs) are specialized neural networks primarily used for processing structured grid data like images.
 
-Explainable AI (XAI) aims to make the decisions made by AI systems understandable and transparent to humans.
+Recurrent Neural Networks (RNNs) are neural networks that are used for sequential data like time series, text, or speech.
 
-OpenAI is an AI research organization focused on creating safe and beneficial artificial intelligence. It developed models like GPT and DALL·E.
+Generative Adversarial Networks (GANs) are machine learning models in which two networks contest with each other to generate realistic data.
 
-ChatGPT is an advanced AI language model developed by OpenAI that can generate human-like text responses and assist in various conversational tasks.
+Transfer Learning is a technique where a model developed for one task is reused as the starting point for a model on a second task.
 
-AI in Healthcare is used for disease detection, medical imaging, drug discovery, and personalized medicine.
+Overfitting is a modeling error which occurs when a function is too closely fit to a limited set of data points and performs poorly on new data.
 
-AI in Education helps create personalized learning plans, automate grading, and provide intelligent tutoring systems.
+Underfitting is when a model is too simple to capture the underlying structure of the data, resulting in poor performance.
 
-AI in Finance is used for fraud detection, risk assessment, algorithmic trading, and customer service.
+Bias in AI refers to the tendency of an algorithm to consistently learn a particular incorrect result due to biased training data.
 
-AI in Autonomous Vehicles helps cars perceive their surroundings, make decisions, and navigate without human input.
+Variance refers to how much a model's predictions change for different training data. High variance models are sensitive to small changes.
 
-AI in Robotics allows robots to perform complex tasks like assembly, navigation, and even interaction with humans.
+Precision is the number of true positives divided by the number of true positives plus false positives. It answers, “Of the ones predicted as positive, how many were correct?”
 
-Turing Test, proposed by Alan Turing, evaluates a machine's ability to exhibit intelligent behavior equivalent to or indistinguishable from that of a human.
+Recall is the number of true positives divided by the number of true positives plus false negatives. It answers, “Of all actual positives, how many did we correctly identify?”
 
-AI vs Human Intelligence: AI is fast and efficient at processing large datasets but lacks consciousness, emotions, and ethical reasoning.
+Accuracy is the ratio of correct predictions to total predictions made by the model.
 
-Strong AI, also known as Artificial General Intelligence (AGI), refers to AI systems with generalized human cognitive abilities.
+F1 Score is the harmonic mean of precision and recall, balancing both metrics into one score.
 
-Weak AI, or Narrow AI, refers to systems designed to handle specific tasks like face recognition or language translation.
+Turing Test is a test proposed by Alan Turing to determine a machine's ability to exhibit human-like intelligence.
 
-AI Tools include TensorFlow, PyTorch, Scikit-learn, and Keras, which are widely used for developing machine learning and deep learning models.
+Strong AI (Artificial General Intelligence - AGI) refers to AI systems that possess general cognitive abilities like a human.
 
-Generative AI refers to AI systems capable of generating new content, such as text, images, music, and videos.
+Weak AI (Narrow AI) refers to AI systems that are designed to handle a specific task, like voice recognition or image classification.
 
-AI in Cybersecurity helps identify threats, detect anomalies, and automate responses to prevent attacks.
+Explainable AI (XAI) aims to make AI models transparent, interpretable, and understandable to humans.
 
-Ethical Challenges in AI include data privacy, surveillance, job displacement, and decision-making transparency.
+AI Ethics is the study of moral issues related to the development and deployment of AI technologies.
 
-Future of AI includes the development of Artificial General Intelligence (AGI), ethical governance, and global collaboration for responsible innovation.
+AI Governance refers to rules, policies, and frameworks to ensure AI is used responsibly.
 
-The AI Winter refers to a period of reduced funding and interest in AI due to unmet expectations.
+AI in Healthcare includes medical diagnosis, drug discovery, robot-assisted surgery, and patient monitoring.
 
-AI in Gaming powers non-player characters (NPCs), dynamic environments, and personalized gaming experiences.
+AI in Education powers intelligent tutoring systems, personalized learning, and automated grading.
 
-AI in Smart Assistants like Siri, Alexa, and Google Assistant helps users with daily tasks using voice commands and NLP.
+AI in Finance includes fraud detection, credit scoring, robo-advisors, and algorithmic trading.
 
-AI in Image Recognition is used in facial recognition, medical imaging, and content moderation on social media.
+AI in Agriculture helps in crop monitoring, weather prediction, and autonomous farming equipment.
 
-AI in Recommendation Systems powers platforms like Netflix, Amazon, and YouTube by analyzing user behavior and preferences.
+AI in Autonomous Vehicles enables self-driving capabilities by using computer vision, sensors, and AI decision-making.
 
-AI and IoT (Internet of Things) combine to create intelligent systems that can analyze sensor data and make real-time decisions.
+AI in Cybersecurity helps detect anomalies, respond to threats, and predict attacks using behavioral analytics.
 
-AI in Agriculture helps in crop monitoring, pest control, and yield prediction using drones and data analytics.
+OpenAI is an AI research organization that developed GPT models and focuses on ensuring that artificial general intelligence benefits all of humanity.
 
-AI in Law is used for legal research, document review, and predicting case outcomes.
+ChatGPT is an advanced AI language model developed by OpenAI that can generate human-like conversations.
 
-AI in Marketing enables personalized advertising, customer segmentation, and trend prediction.
+BERT (Bidirectional Encoder Representations from Transformers) is a transformer-based model for natural language understanding.
 
-AI Limitations include data dependency, interpretability challenges, and lack of common sense reasoning.
+Transformer is a deep learning model introduced in the paper "Attention is All You Need", widely used in NLP tasks.
 
-AI and Quantum Computing: The fusion of these technologies can accelerate machine learning and solve problems beyond classical computers' capabilities.
+TF-IDF (Term Frequency-Inverse Document Frequency) is a technique that evaluates how important a word is to a document in a collection.
 
-AI Governance refers to frameworks and policies to ensure the responsible use and development of AI technologies.
+Tokenization is the process of breaking down text into smaller components, usually words or subwords, for NLP tasks.
+
+Lemmatization is the process of reducing a word to its base form using a vocabulary and morphological analysis.
+
+Stemming is a rule-based process of removing suffixes from words to reduce them to their root form.
+
+Clustering is a technique in unsupervised learning where data is grouped based on similarities.
+
+Classification is the task of predicting the category or class of a data point based on training.
+
+Regression is a technique for predicting a continuous value based on input variables.
+
+K-Means is an unsupervised learning algorithm used to partition data into clusters based on similarity.
+
+Support Vector Machine (SVM) is a supervised learning algorithm used for classification and regression tasks.
+
+Decision Tree is a flowchart-like tree structure where an internal node represents a test on an attribute, and each branch represents an outcome.
+
+Random Forest is an ensemble learning method using multiple decision trees to improve accuracy and prevent overfitting.
+
+Gradient Boosting is a machine learning technique for regression and classification that builds models sequentially.
+
+Bayesian Networks are probabilistic graphical models that represent a set of variables and their conditional dependencies.
+
+Dimensionality Reduction is the process of reducing the number of input variables in a dataset.
+
+PCA (Principal Component Analysis) is a dimensionality reduction technique that transforms data into a set of linearly uncorrelated variables.
+
+Model Evaluation is the process of assessing a model's performance using metrics like accuracy, precision, recall, and F1-score.
+
+Cross-Validation is a method used to estimate the skill of a model on unseen data by dividing the dataset into subsets.
+
+Hyperparameter Tuning is the process of optimizing the parameters that control the learning process in machine learning algorithms.
+
+Real-time AI systems process and respond to inputs almost instantaneously, as seen in autonomous vehicles and fraud detection.
+
+AI Winter refers to periods when AI research faced reduced funding and interest due to lack of progress or unrealistic expectations.
+
+Ethical AI ensures that AI technologies are aligned with human values and laws and are used for the good of society.
+
+The future of AI includes improved generalization, human-AI collaboration, ethical regulation, and integration into all industries.
