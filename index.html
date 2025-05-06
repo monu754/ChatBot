@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuminAi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="name-modal" class="modal">
+        <div class="modal-content">
+            <h2><i class="fas fa-robot"></i> Welcome to LuminAi</h2>
+            <p>Please enter your name to get started</p>
+            <input type="text" id="username-input" placeholder="Your name" maxlength="20">
+            <button id="start-chat-btn">Start Chatting</button>
+        </div>
+    </div>
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h2><i class="fas fa-brain"></i> LuminAi</h2>
+        </div>
+        <div class="sidebar-header">
+            <button id="new-chat-btn" class="new-chat-btn">
+                <i class="fas fa-plus"></i> New Chat
+            </button>
+        </div>
+        <div class="chat-history" id="chat-history">
+            <!-- Example chat history item -->
+            <div class="chat-history-item">
+                <i class="fas fa-comment-alt"></i>
+                <span class="chat-title">Chat 1</span>
+                <button class="rename-chat-btn" title="Rename Chat">
+                    <i class="fas fa-edit"></i>
+                </button>
+            </div>
+            <!-- More chat history items will be dynamically added here -->
+        </div>
+        <div class="user-info">
+            <span><i class="fas fa-user-circle"></i> <span id="sidebar-username">User</span></span>
+            <button id="logout-btn" title="Logout">
+                <i class="fas fa-sign-out-alt"></i>
+            </button>
+        </div>
+    </div>
+    
+    <div class="main-content">
+        <div class="chat-container">
+            <div class="chat-header">
+                <div class="header-left">
+                    <button id="menu-toggle" class="menu-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <h1><i class="fas fa-robot"></i> LuminAi</h1>
+                </div>
+            </div>
+            <div id="chat-messages" class="chat-messages"></div>
+            <div class="chat-input">
+                <input type="text" id="user-input" placeholder="Type your message...">
+                <button id="voice-btn" title="Voice Input"><i class="fas fa-microphone"></i></button>
+                <button id="send-btn"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
