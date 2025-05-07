@@ -214,6 +214,7 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    position: relative;
   }
   
   .chat-container {
@@ -223,6 +224,7 @@
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    position: relative;
   }
   
   .chat-header {
@@ -289,6 +291,8 @@
     font-size: 1.2rem;
     cursor: pointer;
     transition: var(--transition);
+    padding: 0.5rem;
+    z-index: 20;
   }
   
   .menu-toggle:hover {
@@ -317,6 +321,7 @@
     background-image: radial-gradient(circle at 25px 25px, rgba(139, 92, 246, 0.05) 2%, transparent 0%),
       radial-gradient(circle at 75px 75px, rgba(99, 102, 241, 0.05) 2%, transparent 0%);
     background-size: 100px 100px;
+    padding-bottom: 80px; /* Add padding to ensure messages don't get hidden behind input */
   }
   
   .message {
@@ -407,7 +412,11 @@
     background-color: var(--card-bg);
     border-top: 1px solid var(--border-color);
     box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.05);
-    position: relative;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
   }
   
   .chat-input::before {
@@ -581,6 +590,7 @@
       z-index: 1000;
       width: 80%;
       max-width: var(--sidebar-width);
+      height: 100%;
     }
   
     .sidebar.open {
@@ -592,6 +602,8 @@
       display: flex !important;
       align-items: center;
       justify-content: center;
+      width: 40px;
+      height: 40px;
     }
   
     .message {
@@ -614,10 +626,17 @@
   
     .chat-messages {
       padding: 1rem;
+      margin-bottom: 70px;
+      height: calc(100vh - 140px); /* Adjust for header and input */
     }
   
     .chat-input {
-      padding: 1rem;
+      padding: 0.75rem 1rem;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
     }
   
     /* Add overlay when sidebar is open */

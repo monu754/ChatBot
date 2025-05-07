@@ -43,7 +43,6 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     newChatBtn.addEventListener("click", createNewChat)
     logoutBtn.addEventListener("click", logout)
-    menuToggle.addEventListener("click", toggleSidebar)
     startChatBtn.addEventListener("click", startChat)
   
     const chatHistory = document.getElementById("chat-history")
@@ -363,7 +362,12 @@ document.addEventListener("DOMContentLoaded", () => {
     function toggleSidebar() {
       sidebar.classList.toggle("open")
       const overlay = document.getElementById("sidebar-overlay")
-      overlay.classList.toggle("active")
+      if (overlay) {
+        overlay.classList.toggle("active")
+      }
+  
+      // Log for debugging
+      console.log("Sidebar toggled", sidebar.classList.contains("open"))
     }
   
     function scrollToBottom() {
@@ -428,5 +432,44 @@ document.addEventListener("DOMContentLoaded", () => {
         sidebarOverlay.classList.remove("active")
       }
     })
+  })
+  
+  document.addEventListener("DOMContentLoaded", () => {
+    // DOM Elements
+    const chatMessages = document.getElementById("chat-messages")
+    const userInput = document.getElementById("user-input")
+    const sendBtn = document.getElementById("send-btn")
+    const newChatBtn = document.getElementById("new-chat-btn")
+    const chatHistoryContainer = document.getElementById("chat-history")
+    const sidebarUsername = document.getElementById("sidebar-username")
+    const logoutBtn = document.getElementById("logout-btn")
+    const menuToggle = document.getElementById("menu-toggle")
+    const sidebar = document.querySelector(".sidebar")
+    const nameModal = document.getElementById("name-modal")
+    const usernameInput = document.getElementById("username-input")
+    const startChatBtn = document.getElementById("start-chat-btn")
+    const voiceBtn = document.getElementById("voice-btn")
+    const sidebarOverlay = document.getElementById("sidebar-overlay")
+  
+    // Ensure the menu toggle button works
+    if (menuToggle) {
+      menuToggle.addEventListener("click", () => {
+        sidebar.classList.toggle("open")
+        if (sidebarOverlay) {
+          sidebarOverlay.classList.toggle("active")
+        }
+        console.log("Menu clicked, sidebar toggled")
+      })
+    }
+  
+    // Close sidebar when clicking overlay
+    if (sidebarOverlay) {
+      sidebarOverlay.addEventListener("click", () => {
+        sidebar.classList.remove("open")
+        sidebarOverlay.classList.remove("active")
+      })
+    }
+  
+    // Rest of your existing code...
   })
   
